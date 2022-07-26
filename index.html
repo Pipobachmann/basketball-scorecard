@@ -3,14 +3,43 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <div class="container">
-            <div>
+
+        <!--main container start-->
+        <main class="container">
+
+            <!--home container start-->
+            <div class="home">
                 <h3>HOME</h3>
+                <!--score-board for home side-->
+                <div class = "scoreboard-home">
+                    <h2 id="score-home">0</h2>
+                </div>
+
+                <!--buttons for home side-->
+                <div class="buttons">
+                    <button class="plus-one-btn">+1</button>
+                    <button class="plus-two-btn">+2</button>
+                    <button class="plus-three-btn">+3</button>
+                </div>
             </div>
-            <div>
+
+            <!--Guest container start-->
+            <div class="guest">
                 <h3>GUEST</h3>
+                <!--score-board for guest side-->
+                <div class="scoreboard-guest">
+                    <h2 id="score-guest">0</h2>
+                </div>
+
+                <!--buttons for guest side-->
+                <div class="buttons">
+                    <button class="plus-one-btn">+1</button>
+                    <button class="plus-two-btn">+2</button>
+                    <button class="plus-three-btn">+3</button>
+                </div>
             </div>
-        </div>
+        <!--main container end-->
+        </main>
         <script src="index.js"></script>
     </body>
 </html>
