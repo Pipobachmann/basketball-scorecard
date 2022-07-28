@@ -1,6 +1,7 @@
 <html>
     <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="index.css">
+        </script>
     </head>
     <body>
 
@@ -17,9 +18,10 @@
 
                 <!--buttons for home side-->
                 <div class="buttons">
-                    <button class="plus-one-btn">+1</button>
-                    <button class="plus-two-btn">+2</button>
-                    <button class="plus-three-btn">+3</button>
+                    <button class="plus-one-btn" onclick="incrementHome(1)">+1</button>
+                    <button class="plus-two-btn" onclick="incrementHome(2)">+2</button>
+                    <button class="plus-three-btn" onclick="incrementHome(3)">+3</button>
+                    <button class="reset-btn" onclick="resetHome()">reset</button>
                 </div>
             </div>
 
@@ -33,9 +35,10 @@
 
                 <!--buttons for guest side-->
                 <div class="buttons">
-                    <button class="plus-one-btn">+1</button>
-                    <button class="plus-two-btn">+2</button>
-                    <button class="plus-three-btn">+3</button>
+                    <button class="plus-one-btn" onclick="incrementGuest(1)">+1</button>
+                    <button class="plus-two-btn" onclick="incrementGuest(2)">+2</button>
+                    <button class="plus-three-btn" onclick="incrementGuest(3)">+3</button>
+                    <button class="reset-btn" onclick="resetGuest()">reset</button>
                 </div>
             </div>
         <!--main container end-->
