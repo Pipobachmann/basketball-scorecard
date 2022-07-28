@@ -59,11 +59,11 @@ h2 {
 .plus-two-btn,
 .plus-three-btn,
 .reset-btn {
-    border: solid gray 4px;
+    border: solid #9AABD8 4px;
     border-radius: 8px;
     padding: 10px;
     background-color: #1B244A;
-    color: gray;
+    color: #9AABD8;
     font-size: 25px;
     cursor: pointer;
 }
